@@ -19,5 +19,7 @@ public class PostYPreFijo {
         System.out.println(salario);
 
 
+
+
     }
 }
