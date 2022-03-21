@@ -18,5 +18,11 @@ public class VariablesReformadas {
 
         System.out.println("El nombre es: "+nombre);
 
+        //Inferencia de variables a partir de la version 10 de Java.
+        var salarioTotal = 1685.70;
+
+        salarioTotal = salarioTotal + salario;
+        System.out.println("El salario es: "+salarioTotal);
+
     }
 }
