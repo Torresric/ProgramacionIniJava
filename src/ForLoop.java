@@ -1,16 +1,17 @@
-public class BucleWhile {
+public class ForLoop {
 
     static boolean isTurnOnLight = false; //Es la asignacion de una variable global al scoope (nivel) del main.
 
+    //Inicio del metodo main, que es el principal.
     public static void main(String[] args) {
 
         isTurnOnOffLight(); //Se llama la funcion.
 
-        int i = 1;
-        while (isTurnOnLight && i<=10){
-            PrintSOS();
-            i++;
-        }
+        for (int i = 1; i <= 10; i++) { //puedo poner solamente "fo" y me aparece la opcion fori que rellena mi sentencia.
+
+            PrintSOS(); //llamo al metodo para que imprima en pantalla
+
+        } //fin del for
 
     }
 
@@ -30,6 +31,6 @@ public class BucleWhile {
     public static boolean isTurnOnOffLight (){
         isTurnOnLight = (isTurnOnLight)? false:true;
         return isTurnOnLight;
-    }
+    } //Fin de isTurnOnOffLight
 
-} //Fin de la clase
+} //Fin de la clase.
